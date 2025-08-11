@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NextBuy - MERN E-commerce App</title>
 </head>
 <body>
   <h1>NextBuy</h1>
@@ -30,34 +29,6 @@
     <li><strong>Authentication:</strong> JWT (JSON Web Token)</li>
     <li><strong>Styling:</strong> CSS / Bootstrap</li>
   </ul>
-
-  <h2>Getting Started</h2>
-  <ol>
-    <li>Clone the repository: <code>git clone https://github.com/your-username/nextbuy.git</code></li>
-    <li>Install backend dependencies: 
-      <pre><code>cd backend
-npm install</code></pre>
-    </li>
-    <li>Install frontend dependencies:
-      <pre><code>cd frontend
-npm install</code></pre>
-    </li>
-    <li>Create a <code>.env</code> file in the backend folder and configure your environment variables:
-      <ul>
-        <li><code>MONGO_URI</code> - MongoDB connection string</li>
-        <li><code>JWT_SECRET</code> - Secret key for JWT</li>
-        <li><code>PORT</code> - Backend server port</li>
-      </ul>
-    </li>
-    <li>Run the backend server:
-      <pre><code>cd backend
-npm run dev</code></pre>
-    </li>
-    <li>Run the frontend server:
-      <pre><code>cd frontend
-npm start</code></pre>
-    </li>
-  </ol>
 
   <h2>API Endpoints</h2>
   <ul>
