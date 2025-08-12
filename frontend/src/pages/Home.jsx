@@ -1,13 +1,21 @@
-import React from 'react'
-import HeroSection from '../components/layout/HeroSection'
+import React from "react";
+import HeroSection from "../components/layout/HeroSection";
+import GenderCollectionSection from "../components/products/GenderCollectionSection";
+import NewArrivals from "../components/products/NewArrivals";
 
 const Home = () => {
   return (
     <div>
-        {/* Hero Section */}
-        <HeroSection />
-    </div>
-  )
-}
+      {/* Hero Section */}
+      <HeroSection />
 
-export default Home
+      {/* Gender Collection Section */}
+      <GenderCollectionSection />
+
+      {/* NewArrivals */}
+      <NewArrivals />
+    </div>
+  );
+};
+
+export default Home;
